@@ -11,7 +11,8 @@ const NotFound=lazy(()=>import("./pages/NotFounds"))
 const Profile=lazy(()=>import("./components/specific/Profile"))
 
 
-let user=false
+let user=true
+  
 ;
 
 const App = () => {
